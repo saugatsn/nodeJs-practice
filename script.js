@@ -1,10 +1,4 @@
-// console.log("Hello backend world!");
-// for (let i = 0; i < 5; i++) {
-//   console.log(i);
-// }
-// console.log(process.argv);
-let args=process.argv;
-console.log("Info: ")
-for (let i=2;i<args.length;i++){
-    console.log(args[i]);
-}
+let math=require("./math")
+console.log(math.sum(1,5));
+console.log(math.sub(4,1));
+console.log(math.pi);
